@@ -2,9 +2,9 @@
 /**
  * Database log writer. Stores log information in a database.
  *
- * @package    Kohana
+ * @package    kohana-log-database
  * @category   Logging
- * @author     André Zahn
+ * @author     Nick Zahn
  */
 class Log_Database extends Log_Writer {
 
