@@ -1,0 +1,20 @@
+{
+	"name": "manc/kohana-log-database",
+	"type": "kohana-module",
+	"description": "Database log writer for Kohana 3.3",
+	"keywords": ["kohana", "log", "logging", "database"],
+	"authors": [
+		{
+			"name": "Nick Zahn",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/Manc/kohana-log-database"
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"kohana/core": ">=3.3",
+		"kohana/database": "*"
+	}
+}
