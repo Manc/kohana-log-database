@@ -40,7 +40,7 @@ class Log_Database extends Log_Writer {
 	 */
 	public function write(array $messages)
 	{
-		var_dump($messages); //die();
+		//var_dump($messages); //die();
 		foreach ($messages as $message)
 		{
 			$additional = Arr::get($message, 'additional');
